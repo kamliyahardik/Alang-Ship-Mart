@@ -1,0 +1,40 @@
+{
+    "routes": [
+        {
+            "src": "/frontend/public/index.html",
+            "dest": "/"
+        },
+        {
+            "src": "/product/:slug",
+            "dest": "/"
+        },
+        {
+            "src": "/cart",
+            "dest": "/"
+        },
+        {
+            "src": "/search",
+            "dest": "/"
+        },
+        {
+            "src": "/signin",
+            "dest": "/"
+        },
+        {
+            "src": "/signup",
+            "dest": "/"
+        },
+        {
+            "src": "/forget-password",
+            "dest": "/"
+        },
+        {
+            "src": "/reset-password/:token",
+            "dest": "/"
+        },
+        {
+            "src": "/profile",
+            "dest": "/"
+        }
+    ]
+}
